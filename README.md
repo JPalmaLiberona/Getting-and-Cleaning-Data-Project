@@ -13,3 +13,5 @@ the code presented in "run_analysis.R" does the following:
  5. changes the activity codes for descriptive activity labels.
  6. changes the variable names making them more descriptive.
  7. outputs this clean dataset in the "tidy.txt" file.
+
+the data used for this analysis and it's detailed description can be found in the following link http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
