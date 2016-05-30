@@ -1,7 +1,15 @@
 #Code Book
 the output file "tidy.txt" presents 81 variables.
- 1. subject: ID of the test subject.
- 2. activity: type of activity that the test subject performed during the measurments. this activity can be:
+ variables 3 through 81 are the measured and calculated values, thesse values where measured by an accelerometer (Acc values) and a gyroscope (Gyro values) in an smartphone.
+ all the measures where pre-processed using noise filters.
+ time domain signals where obtained (time variables).
+ all measures are presented in it's X, Y and Z axis values and acceleration measures where separated in gravity and body acceleration.
+ body linear acceleration and angular velocity where calculated in order to produce the "Jerk" signals.
+ the magnitude of the three dimensional signals was calculated using the Euclidean norm and the results presented in the "magnitude" variables.
+ the Fast Fourier Transform was used to obtain the frecuency varaibles. 
+ 
+1. subject: ID of the test subject.
+2. activity: type of activity that the test subject performed during the measurments. this activity can be:
   1. standing: test subject is standing
   2. sitting: test subject is sitting
   3. laying: test subject lays down
@@ -9,21 +17,13 @@ the output file "tidy.txt" presents 81 variables.
   5. walking downstairs: test subject walks downstairs on a stair
   6. walking upstairs: test subject walks upstairs on a stair
 
-variables 3 through 81 are the measured and calculated values, thesse values where measured by an accelerometer (Acc values) and a gyroscope (Gyro values) in an smartphone.
-all the measures where pre-processed using noise filters.
-time domain signals where obtained (time variables).
-all measures are presented in it's X, Y and Z axis values and acceleration measures where separated in gravity and body acceleration.
-body linear acceleration and angular velocity where calculated in order to produce the "Jerk" signals.
-the magnitude of the three dimensional signals was calculated using the Euclidean norm and the results presented in the "magnitude" variables.
-the Fast Fourier Transform was used to obtain the frecuency varaibles.
-
- 3. "time Body Acc mean X"                                  
- 4. "time Body Acc mean Y"                                  
- 5. "time Body Acc mean Z"                                  
- 6. "time Body Acc std X"                                   
- 7. "time Body Acc std Y"                                   
- 8. "time Body Acc std Z"                                   
- 9. "time Gravity Acc mean X"                               
+3. "time Body Acc mean X"                                  
+4. "time Body Acc mean Y"                                  
+5. "time Body Acc mean Z"                                  
+6. "time Body Acc std X"                                   
+7. "time Body Acc std Y"                                   
+8. "time Body Acc std Z"                                   
+9. "time Gravity Acc mean X"                               
 10. "time Gravity Acc mean Y"                               
 11. "time Gravity Acc mean Z"                               
 12. "time Gravity Acc std X"                                
