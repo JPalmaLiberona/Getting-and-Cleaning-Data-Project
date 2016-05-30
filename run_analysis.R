@@ -56,4 +56,4 @@ variables <- gsub("^f", "frequency ", variables)
 names(filteredData) <- variables
 
 # save tidy data
-write.table(filteredData, file = "tidy.txt", row.names = F, quote = F)
+write.table(filteredData, file = "tidy.txt", row.names = F)
