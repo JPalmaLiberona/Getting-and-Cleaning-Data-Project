@@ -8,7 +8,8 @@ the output file "tidy.txt" presents 81 variables.
  the magnitude of the three dimensional signals was calculated using the Euclidean norm and the results presented in the "magnitude" variables.
  the Fast Fourier Transform was used to obtain the frecuency varaibles. 
  only mean and standard deviation (std) variables where kept for the clean data set "tidy.txt"
- 
+the following are the 81 variables presented in the clean data set:
+
 1. subject: ID of the test subject.
 2. activity: type of activity that the test subject performed during the measurments. this activity can be:
   1. standing: test subject is standing
@@ -18,7 +19,7 @@ the output file "tidy.txt" presents 81 variables.
   5. walking downstairs: test subject walks downstairs on a stair
   6. walking upstairs: test subject walks upstairs on a stair
 
-3. "time Body Acc mean X"                                  
+3. "time Body Acc mean X"                           
 4. "time Body Acc mean Y"                                  
 5. "time Body Acc mean Z"                                  
 6. "time Body Acc std X"                                   
